@@ -1,0 +1,132 @@
+
+/*
+Header configuration
+*/
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+}
+li{
+    padding: 4px;
+}
+
+.teste2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: relative;
+
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*End configaration of header */
+
+#botao{
+    height: 30px;
+    width: 100px;
+}
+
+/* Impact section configaration*/
+.impactSection{
+    
+    background-color: aquamarine;
+
+}
+/* End impact section configaration*/
+
+
+
+/*
+About us section configaration
+*/
+.aboutUsSection{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+
+/*
+ End about us section configaration
+*/
+
+
+/* Product section configaration*/
+.products-section{
+    margin: 0;
+    background-color: burlywood;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#list-product{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* End Pproduct section configaration*/
+
+
+
+/*Creative section configaration*/
+
+
+
+/*End creative section configuration*/
+
+
+
+
+/* footer*/
+
+footer{
+    background-color: cadetblue;
+}
+
+
+#logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+#endereco{
+    display: flex;
+    justify-content: center;
+}
+
+
+.social-media{
+    display: flex;
+    justify-content: end;
+
+    
+    
+}
+
+#logo-footer{
+    position: relative;
+}
+
+img {
+    padding: 3px;
+    height: 20px;
+}
+
+
